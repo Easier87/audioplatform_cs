@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:audioplatform_cs"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="540" Width="960">
+    <Border Background="#1b1b1b">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="31*"/>
+            </Grid.ColumnDefinitions>
 
-    </Grid>
+            <Rectangle Fill="#292929" Grid.Column="2" />
+            <Rectangle Fill="#292929"/>
+        </Grid>
+    </Border>
 </Window>

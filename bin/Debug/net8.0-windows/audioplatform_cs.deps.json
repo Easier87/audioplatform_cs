@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "audioplatform_cs/1.0.0": {
+        "runtime": {
+          "audioplatform_cs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "audioplatform_cs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
