@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\vs_projects\audioplatform_cs\App.xaml
-11407045341
+4-176219591
 
-4956764258
-198-688555687
-MainWindow.xaml;
+91958584259
+203313568877
+View\Add.xaml;View\MainWindow.xaml;View\MostMain.xaml;View\Search.xaml;
 
 False
 
