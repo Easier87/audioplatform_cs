@@ -13,6 +13,12 @@
     </Window.DataContext>
     <Border Background="#1b1b1b">
         <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="463*"/>
+                <RowDefinition Height="61*"/>
+            </Grid.RowDefinitions>
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="11*"/>
@@ -24,8 +30,11 @@
                 <Button x:Name="AddPage" Content="Добавить песню" Height="40" Command="{Binding OpenAddPage}"/>
             </StackPanel>
 
-            <Frame x:Name="Screen" Grid.Column="1" Content="{Binding CurrentPage}"/>
+            <Frame x:Name="Screen" Grid.Column="1" NavigationUIVisibility="Hidden" Content="{Binding CurrentPage}"/>
 
+            <Border x:Name="Player" Grid.Row="1" Grid.Column="1" Background="#292929">
+
+            </Border>
 
         </Grid>
     </Border>
