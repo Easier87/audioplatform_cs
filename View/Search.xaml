@@ -8,7 +8,24 @@
       d:DesignHeight="540" d:DesignWidth="660"
       Title="Search">
 
-    <Border Background="AliceBlue">
-        
+    <Border Background="#1b1b1b">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="47*"/>
+            </Grid.RowDefinitions>
+
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox Width="200" Background="#808080" CaretBrush="White">
+
+                </TextBox>
+
+                <TextBlock Foreground="White" IsHitTestVisible="False" Opacity="0.3" Margin="10,0,0,0">
+                    Поиск
+                </TextBlock>
+            </Grid>
+            
+            
+        </Grid>
     </Border>
 </Page>

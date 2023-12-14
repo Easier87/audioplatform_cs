@@ -15,12 +15,18 @@
                 <ColumnDefinition Width="31*"/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel VerticalAlignment="Center" Height="400">
-                <Button Height="100" Width="300"/>
-                <Button Height="100" Width="300"/>
-                <Button Height="100" Width="300"/>
-                <Button Height="100" Width="300"/>
-            </StackPanel>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <StackPanel VerticalAlignment="Center" Height="400">
+                    <Button Height="100" Width="300"/>
+                    <Button Height="100" Width="300"/>
+                    <Button Height="100" Width="300"/>
+                    <Button Height="100" Width="300"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Column="1" Background="#292929" BorderBrush="Black" BorderThickness="1">
+                
+            </Border>
         </Grid>
     </Border>
 </Page>

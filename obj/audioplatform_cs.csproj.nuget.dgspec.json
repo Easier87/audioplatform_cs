@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_projects\\audioplatform_cs\\audioplatform_cs.csproj": {}
+    "D:\\git_oop_cs\\audioplatform_cs\\audioplatform_cs.csproj": {}
   },
   "projects": {
-    "D:\\vs_projects\\audioplatform_cs\\audioplatform_cs.csproj": {
+    "D:\\git_oop_cs\\audioplatform_cs\\audioplatform_cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_projects\\audioplatform_cs\\audioplatform_cs.csproj",
+        "projectUniqueName": "D:\\git_oop_cs\\audioplatform_cs\\audioplatform_cs.csproj",
         "projectName": "audioplatform_cs",
-        "projectPath": "D:\\vs_projects\\audioplatform_cs\\audioplatform_cs.csproj",
-        "packagesPath": "C:\\Users\\tapki\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_projects\\audioplatform_cs\\obj\\",
+        "projectPath": "D:\\git_oop_cs\\audioplatform_cs\\audioplatform_cs.csproj",
+        "packagesPath": "C:\\Users\\Матвей\\.nuget\\packages\\",
+        "outputPath": "D:\\git_oop_cs\\audioplatform_cs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tapki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Матвей\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
