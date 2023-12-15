@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\git_oop_cs\audioplatform_cs\obj\Debug\net8.0-windows\
+D:\vs_projects\audioplatform_cs\obj\Debug\net8.0-windows\
 audioplatform_cs
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\git_oop_cs\audioplatform_cs\App.xaml
-4-176219591
+D:\vs_projects\audioplatform_cs\App.xaml
+5-1643340289
 
-91958584259
-203-1123446202
-View\Add.xaml;View\MainWindow.xaml;View\MostMain.xaml;View\Search.xaml;
+111616346600
+203313568877
+View\Add.xaml;View\MainWindow.xaml;View\MostMain.xaml;View\PlaylistWindow.xaml;View\Search.xaml;
 
 False
 

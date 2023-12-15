@@ -20,5 +20,7 @@ namespace audioplatform_cs.View
         {
             InitializeComponent();
         }
+
+        
     }
 }

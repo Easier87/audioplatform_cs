@@ -16,13 +16,19 @@
             </Grid.RowDefinitions>
 
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBox Width="200" Background="#808080" CaretBrush="White">
-
+                <TextBox Width="200" Height="25" Background="#808080" CaretBrush="White" VerticalContentAlignment="Center">
+                    
                 </TextBox>
 
-                <TextBlock Foreground="White" IsHitTestVisible="False" Opacity="0.3" Margin="10,0,0,0">
+                <TextBlock Foreground="White" IsHitTestVisible="False" Opacity="0.3" VerticalAlignment="Center" Margin="10,0,0,0">
                     Поиск
                 </TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <ListView Background="#1b1b1b">
+                    
+                </ListView>
             </Grid>
             
             

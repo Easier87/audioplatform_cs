@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:audioplatform_cs.View"
       mc:Ignorable="d" 
-      d:DesignHeight="540" d:DesignWidth="660"
+      d:DesignHeight="480" d:DesignWidth="660"
       Title="MostMain">
 
     <Border Background="#1b1b1b">
@@ -17,10 +17,10 @@
 
             <Border BorderBrush="Black" BorderThickness="1">
                 <StackPanel VerticalAlignment="Center" Height="400">
-                    <Button Height="100" Width="300"/>
-                    <Button Height="100" Width="300"/>
-                    <Button Height="100" Width="300"/>
-                    <Button Height="100" Width="300"/>
+                    <Button Content="Рок" Height="100" Width="300" />
+                    <Button Content="Хип-Поп" Height="100" Width="300"/>
+                    <Button Content="Альтернатива" Height="100" Width="300"/>
+                    <Button Content="Классика" Height="100" Width="300"/>
                 </StackPanel>
             </Border>
 

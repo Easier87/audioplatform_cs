@@ -90,3 +90,7 @@ D:\git_oop_cs\audioplatform_cs\obj\Debug\net8.0-windows\refint\audioplatform_cs.
 D:\git_oop_cs\audioplatform_cs\obj\Debug\net8.0-windows\audioplatform_cs.pdb
 D:\git_oop_cs\audioplatform_cs\obj\Debug\net8.0-windows\audioplatform_cs.genruntimeconfig.cache
 D:\git_oop_cs\audioplatform_cs\obj\Debug\net8.0-windows\ref\audioplatform_cs.dll
+D:\vs_projects\audioplatform_cs\obj\Debug\net8.0-windows\audioplatform_cs.Properties.Resources.resources
+D:\vs_projects\audioplatform_cs\obj\Debug\net8.0-windows\audioplatform_cs.csproj.GenerateResource.cache
+D:\vs_projects\audioplatform_cs\obj\Debug\net8.0-windows\View\PlaylistWindow.g.cs
+D:\vs_projects\audioplatform_cs\obj\Debug\net8.0-windows\View\PlaylistWindow.baml

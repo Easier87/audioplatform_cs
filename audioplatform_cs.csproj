@@ -9,7 +9,44 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\back.png" />
+    <None Remove="View\downloadIcon.png" />
+    <None Remove="View\next.png" />
+    <None Remove="View\pause.png" />
+    <None Remove="View\play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Resources\" />
+    <Folder Include="View\Icons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\back.png" />
+    <Resource Include="View\downloadIcon.png" />
+    <Resource Include="View\next.png" />
+    <Resource Include="View\pause.png" />
+    <Resource Include="View\play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

@@ -5,15 +5,35 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:audioplatform_cs.View"
       mc:Ignorable="d" 
-      d:DesignHeight="540" d:DesignWidth="660"
+      d:DesignHeight="480" d:DesignWidth="660"
       Title="Add">
 
     <Border Background="#1b1b1b">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="17*"/>
+                <RowDefinition Height="3*"/>
             </Grid.RowDefinitions>
+
+            <Border Background="#808080" Width="500" Height="350" CornerRadius="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Background="#808080">
+                    <Image Source="/View/downloadIcon.png" Stretch="Uniform" Width="200"/>
+                </Button>
+            </Border>
+
+            <Grid Grid.Row="1">
+                <ComboBox Width="180" Margin="50 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <TextBlock>Выберите...</TextBlock>
+                </ComboBox>
+
+                <ComboBox Width="180" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    
+                </ComboBox>
+
+                <ComboBox Width="180" Margin="0 0 50 0" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    
+                </ComboBox>
+            </Grid>
         </Grid>
     </Border>
 </Page>
